@@ -2,17 +2,21 @@
 
 ## 🇹🇷 Amaç
 Bu projenin amacı, yapay olarak üretilmiş bir sinüs sinyaline eklenen rastgele gürültüyü (noise), SciPy kütüphanesinin Butterworth alçak geçiren (low-pass) filtresi ile temizleyip orijinal sinyali geri kurtarmaktır.
-NOT: line(15):  sos = signal.butter(4, 8, fs=fs, btype="low", output="sos");
+NOT;
+
+    line(15):  sos = signal.butter(4, 8, fs=fs, btype="low", output="sos");
     İlk İndex= Derece belirtir 
     İkinci İndex= 5*4.derece filtre için çarpan(1.6)alındı.  
     bytpe= Alçak&Yüksek kesim 
 
 Filtre Derecesi  | Eğim Dikliği | Pratik Çarpan Aralığı | 
-   1.Derece         Çok yatay          3.00-4.00    
-   2.Derece          Yumuşak           2.00-2.50 
 
+   1.Derece          Çok yatay          3.00-4.00    
+   
+   2.Derece          Yumuşak           2.00-2.50 
    
    4.Derece          Dengeli           1.70-1.90 
+   
    6.Derece            Dik             1.25-1.35    
    
 ## 🇬🇧 Purpose
