@@ -10,6 +10,8 @@ NOT: line(15):  sos = signal.butter(4, 8, fs=fs, btype="low", output="sos");
 Filtre Derecesi  | Eğim Dikliği | Pratik Çarpan Aralığı | 
    1.Derece         Çok yatay          3.00-4.00    
    2.Derece          Yumuşak           2.00-2.50 
+
+   
    4.Derece          Dengeli           1.70-1.90 
    6.Derece            Dik             1.25-1.35    
    
