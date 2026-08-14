@@ -29,6 +29,6 @@ The purpose of this project is to filter out random noise from a synthetic 5 Hz 
 ```bash
 pip install numpy scipy matplotlib
 python main.py
+```
+<img width="1200" height="800" alt="Figure_1" src="https://github.com/user-attachments/assets/37b13bfb-01b8-4f5f-bb2d-74455d637599" />
 
-
-<img width="1200" height="800" alt="Figure_1" src="https://github.com/user-attachments/assets/e6e5b142-3bc9-42c8-ad60-b463de493e6d" />
